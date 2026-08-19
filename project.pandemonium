@@ -1,0 +1,71 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "KinematicBody2D",
+"class": @"BaseMainCharacter",
+"language": @"PScript",
+"path": "res://scripts/base_class/base_main_character.p"
+}, {
+"base": "Resource",
+"class": @"MainCharacterStatsResource",
+"language": @"PScript",
+"path": "res://scripts/resource_class/main_character_stats_resource.p"
+} ]
+_global_script_class_icons={
+"BaseMainCharacter": "",
+"MainCharacterStatsResource": ""
+}
+
+[application]
+
+config/name="Las bisarras aventuras de Rangu i su nena"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="LegendaryHero/SJ-RPG"
+config/icon="res://icon.png"
+
+[debug]
+
+pscript/completion/autocomplete_setters_and_getters=true
+pscript/warnings/unused_class_variable=true
+pscript/warnings/unused_argument=true
+pscript/warnings/unused_signal=true
+pscript/warnings/return_value_discarded=true
+pscript/warnings/unsafe_property_access=true
+pscript/warnings/unsafe_method_access=true
+pscript/warnings/unsafe_cast=true
+pscript/warnings/unsafe_call_argument=true
+
+[display]
+
+window/size/width=256
+window/size/height=224
+window/size/fullscreen=true
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
+
+[editor]
+
+scene_naming=2
+default_language=2
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+quality/driver/driver_name="GLES3"
+environment/default_clear_color=Color( 0, 0, 0, 1 )
+environment/default_environment="res://default_env.tres"
