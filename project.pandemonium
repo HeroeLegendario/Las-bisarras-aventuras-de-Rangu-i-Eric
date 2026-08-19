@@ -12,16 +12,16 @@ _global_script_classes=[ {
 "base": "KinematicBody2D",
 "class": @"BaseMainCharacter",
 "language": @"PScript",
-"path": "res://scripts/base_class/base_main_character.p"
+"path": "res://scripts/base_classes/base_main_character.p"
 }, {
 "base": "Resource",
-"class": @"MainCharacterStatsResource",
+"class": @"CharacterSheetResource",
 "language": @"PScript",
-"path": "res://scripts/resource_class/main_character_stats_resource.p"
+"path": "res://scripts/resource_class/character_sheet_resource.p"
 } ]
 _global_script_class_icons={
 "BaseMainCharacter": "",
-"MainCharacterStatsResource": ""
+"CharacterSheetResource": ""
 }
 
 [application]
@@ -55,6 +55,7 @@ window/stretch/aspect="keep"
 
 scene_naming=2
 default_language=2
+script_templates_search_path="res://.script_templates"
 
 [gui]
 

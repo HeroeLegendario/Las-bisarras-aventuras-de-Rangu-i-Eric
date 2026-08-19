@@ -1,11 +1,9 @@
 [gd_resource type="Resource" load_steps=2 format=3]
 
-[ext_resource path="res://scripts/resource_class/main_character_stats_resource.p" type="Script" id=1]
+[ext_resource path="res://scripts/resource_class/character_sheet_resource.p" type="Script" id=1]
 
 [resource]
 script = ExtResource( 1 )
-level = 1
 health_points = 30
-mana_points = 5
 stored_magics = {
 }
