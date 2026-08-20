@@ -17,7 +17,7 @@ _global_script_classes=[ {
 "base": "Resource",
 "class": @"CharacterSheetResource",
 "language": @"PScript",
-"path": "res://scripts/resource_class/character_sheet_resource.p"
+"path": "res://scripts/resource_classes/character_sheet_resource.p"
 } ]
 _global_script_class_icons={
 "BaseMainCharacter": "",
@@ -26,27 +26,26 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Las bisarras aventuras de Rangu i su nena"
+config/name="Las bisarras aventuras de Rangu i eric"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="LegendaryHero/SJ-RPG"
 config/icon="res://icon.png"
 
+[autoload]
+
+GlobalDefinitions="*res://autoloads/global_definitions.p"
+
 [debug]
 
 pscript/completion/autocomplete_setters_and_getters=true
-pscript/warnings/unused_class_variable=true
 pscript/warnings/unused_argument=true
-pscript/warnings/unused_signal=true
-pscript/warnings/return_value_discarded=true
-pscript/warnings/unsafe_property_access=true
-pscript/warnings/unsafe_method_access=true
 pscript/warnings/unsafe_cast=true
 pscript/warnings/unsafe_call_argument=true
 
 [display]
 
-window/size/width=256
-window/size/height=224
+window/size/width=512
+window/size/height=448
 window/size/fullscreen=true
 window/stretch/mode="viewport"
 window/stretch/aspect="keep"
@@ -60,6 +59,7 @@ script_templates_search_path="res://.script_templates"
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true
+theme/custom_font="res://assets/font/sergamon.tres"
 
 [physics]
 

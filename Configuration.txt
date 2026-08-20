@@ -1,0 +1,1 @@
+Las escenas fuera de chapter son global scope y las de dentro de cada capitulo son separados entre capitulos
