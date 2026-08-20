@@ -18,10 +18,16 @@ _global_script_classes=[ {
 "class": @"CharacterSheetResource",
 "language": @"PScript",
 "path": "res://scripts/resource_classes/character_sheet_resource.p"
+}, {
+"base": "Resource",
+"class": @"StoryFolderResource",
+"language": @"PScript",
+"path": "res://scripts/resource_classes/story_folder_resource.p"
 } ]
 _global_script_class_icons={
 "BaseMainCharacter": "",
-"CharacterSheetResource": ""
+"CharacterSheetResource": "",
+"StoryFolderResource": ""
 }
 
 [application]

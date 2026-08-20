@@ -1,0 +1,7 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource path="res://scripts/resource_classes/story_folder_resource.p" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+folders = [ "res://chapters/ch 1/character_scenes", "res://chapters/ch 1/dialog_resources", "res://chapters/ch 1/game_scenes" ]
