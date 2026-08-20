@@ -13,3 +13,7 @@ Lo estoi asiendo llo Heroe Legeindario esto es un espinof de un juego que estoi 
 ## d ke ba?
 
 la berdad nu se por q lo stoi asiendo meintras lo poiesnso perdon lol lmao cff
+
+## por ke ases esto?
+
+esto lo ago por dibersion i ya
